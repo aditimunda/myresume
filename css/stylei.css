@@ -120,14 +120,14 @@ header{
 	padding: 15px 40px 6px;
 	position: absolute;
 }
-.education .box-container2 .resume li{
+.education .box-container2 .resume p{
 	position: absolute;
 
 	list-style: none;
 	display: block;
 	margin: 0 5px;
 }
-.education .box-container2 .resume li a{
+.education .box-container2 .resume p a{
 	display: block;
 	padding: 15px 40px;
 	border-radius: 25px;
@@ -140,7 +140,7 @@ header{
 	text-decoration: none;
 	cursor: pointer;
 }
-.education .box-container2 .resume li a:hover {
+.education .box-container2 .resume p a:hover {
 	background-color: #fff;
 	color: #000;
 }
@@ -245,12 +245,12 @@ header{
 	position: absolute;
 }
 
-.education .box-container2 .resume li a{
+.education .box-container2 .resume p a{
 	
 	padding: 15px 40px;
 	font-size: 20px; 
 }
-.education .box-container2 .resume li a:hover {
+.education .box-container2 .resume p a:hover {
 	background-color: #fff;
 	color: #000;
 }
