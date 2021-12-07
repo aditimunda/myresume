@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	width: 100%;
+	background-image: url(../P2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: centre;
+}
+.title{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.title h1{
+	font-size: 50px;
+	font-family: Calisto MT;
+}
+.main{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+	
+}
+.main p{
+	padding: 1rem 0;
+	margin: 0 0 20px 0;
+	
+	font-size: 30px;
+	font-family: Calisto MT;
+	
+}
+
+.education h1{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	font-size: 50px;
+	font-family: Calisto MT;
+	transform: translate(-50%,-50%);
+
+}
+.education .box-container{
+	position: absolute;
+	top: 40%;
+	left: 30%
+}
+.education .box-container .box{
+
+	text-align:center;
+}
+.education .box-container .box h2{
+	font-size: 30px; 
+	text-decoration: underline;
+	font-family: Calisto MT;
+	text-align:center;	
+}
+.education .box-container .box h3{
+	font-size: 20px;
+	
+	font-family: Calisto MT;
+	padding-top: .5rem;
+	text-align:center;
+}
+.education .box-container .box p{
+	font-size: 20px;
+	
+	font-family: Calisto MT;
+	padding: 1rem 0;
+}
+.education .box-container1 {
+	position: absolute;
+	top: 40%;
+	left: 50%
+}
+.education .box-container1 .box{
+	text-align:center;
+}
+.education .box-container1 .box h2{
+	font-size: 30px; 
+	text-decoration: underline;
+	font-family: Calisto MT;
+	text-align:center;
+}
+.education .box-container1 .box h3{
+	font-size: 20px;
+	
+	font-family: Calisto MT;
+	padding-top: .5rem;
+	text-align:center;
+}
+.education .box-container1 .box p{
+	font-size: 20px;
+	
+	font-family: Calisto MT;
+	padding: 1rem 0;
+}
+.education .box-container2{
+	display: block;
+	align-items: centre;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 15px 40px 6px;
+	position: absolute;
+	top: 70%;
+	left: 38%
+	
+}
+.education .box-container2 .resume{
+	width: 27rem;
+	margin: 4rem 1rem;
+	padding: 15px 40px 6px;
+	position: absolute;
+}
+.education .box-container2 .resume li{
+	position: absolute;
+
+	list-style: none;
+	display: block;
+	margin: 0 5px;
+}
+.education .box-container2 .resume li a{
+	display: block;
+	padding: 15px 40px;
+	border-radius: 25px;
+	
+	font-family: Calisto MT;
+	text-align:center;
+	background: #333333;
+	color: #fff;
+	font-size: 30px; 
+	text-decoration: none;
+	cursor: pointer;
+}
+.education .box-container2 .resume li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+/* Responsive Design*/
+@media (max-width: 991px){
+ header{
+  background-image: url(../P1hover.jpg);
+}
+.images{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.title{
+	position: absolute;
+        top: 7%;
+        left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+.title h1{
+	font-size: 35px;
+	font-family: Calisto MT;
+	
+}
+.main{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+	
+}
+.main p{
+
+	
+	font-size: 25px;
+	font-family: Calisto MT;
+	
+}
+
+.education h1{
+	position: absolute;
+	top: 32%;
+	left: 50%;
+	font-size: 35px;
+	font-family: Calisto MT;
+	transform: translate(-50%,-50%);
+
+}
+.education .box-container{
+	position: absolute;
+	top: 37%;
+	left: 25%
+	
+}
+.education .box-container .box h2{
+	font-size: 25px; 
+
+}
+.education .box-container .box h3{
+	font-size: 20px;
+
+}
+.education .box-container .box p{
+	font-size: 20px;
+
+	padding: 1rem 0;
+}
+.education .box-container1 {
+	position: absolute;
+	top: 65%;
+	left: 8%
+	
+}
+
+.education .box-container1 .box h2{
+	font-size: 25px; 
+
+}
+.education .box-container1 .box h3{
+	font-size: 20px;
+	
+
+}
+.education .box-container1 .box p{
+	font-size: 20px;
+	padding: 1rem 0;
+}
+.education .box-container2{
+
+	padding: 15px 40px 6px;
+	position: absolute;
+	top: 85%;
+	left: 15%
+}
+.education .box-container2 .resume{
+
+	padding: 15px 40px 6px;
+	position: absolute;
+}
+
+.education .box-container2 .resume li a{
+	
+	padding: 15px 40px;
+	font-size: 20px; 
+}
+.education .box-container2 .resume li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+}
