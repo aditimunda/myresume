@@ -83,6 +83,14 @@ a:hover {
 	transform: translate(-50%,-50%);
 
 }
+.images img{
+	height: 17rem;
+	width: 17rem;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+
+}
 .title{
 	position: absolute;
         top: 50%;
