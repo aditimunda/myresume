@@ -94,18 +94,18 @@ a:hover {
 .title{
 	position: absolute;
         top: 50%;
-        left: 45%;
+        left: 50%;
 	transform: translate(-50%,-50%);
 	
 }
 .title h1{
-	font-size: 100px;
+	font-size: 95px;
 	font-family: Calisto MT;
 	
 }
 .button{
 	position: absolute;
-	top: 80%;
+	top: 85%;
 	left: 50%;
 
 	transform: translate(-50%,-50%);
@@ -122,7 +122,7 @@ a:hover {
 a{
 	display: block;
 	padding: 14px 40px;
-	font-size: 50px;
+	font-size: 70px;
 	border-radius: 25px;
 	text-align:center;
 	font-family: Calisto MT;
