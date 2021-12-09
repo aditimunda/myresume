@@ -148,6 +148,11 @@ header{
 @media (max-width: 1200px){
  header{
   background-image: url(../P1hover.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: centre;
+	 
 }
 .title{
 	position: absolute;
