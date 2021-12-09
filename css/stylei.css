@@ -163,9 +163,9 @@ header{
 }
 .main{
 	position: absolute;
-	top: 20%;
+	top: 25%;
 	left: 30%;
-	transform: translate(-50%,-50%);
+	
 	
 	
 }
