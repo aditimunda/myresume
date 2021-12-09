@@ -157,14 +157,14 @@ header{
 	
 }
 .title h1{
-	font-size: 35px;
+	font-size: 32px;
 	font-family: Calisto MT;
 	
 }
 .main{
 	position: absolute;
 	top: 20%;
-	left: 35%;
+	left: 50%;
 	
 	
 	
@@ -181,7 +181,7 @@ header{
 	position: absolute;
 	top: 32%;
 	left: 50%;
-	font-size: 35px;
+	font-size: 32px;
 	font-family: Calisto MT;
 	transform: translate(-50%,-50%);
 
@@ -207,7 +207,7 @@ header{
 }
 .education .box-container1 {
 	position: absolute;
-	top: 65%;
+	top: 70%;
 	left: 8%
 	
 }
