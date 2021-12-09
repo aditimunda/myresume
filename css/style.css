@@ -94,7 +94,7 @@ a:hover {
 .title{
 	position: absolute;
         top: 50%;
-        left: 40%;
+        left: 45%;
 	transform: translate(-50%,-50%);
 	
 }
@@ -105,7 +105,7 @@ a:hover {
 }
 .button{
 	position: absolute;
-	top: 75%;
+	top: 80%;
 	left: 50%;
 
 	transform: translate(-50%,-50%);
