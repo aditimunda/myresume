@@ -105,7 +105,7 @@ a:hover {
 }
 .button{
 	position: absolute;
-	top: 82%;
+	top: 77%;
 	left: 50%;
 
 	transform: translate(-50%,-50%);
