@@ -42,7 +42,7 @@ header{
 .education h1{
 	position: absolute;
 	top: 30%;
-	left: 52%;
+	left: 50%;
 	font-size: 50px;
 	font-family: Calisto MT;
 	transform: translate(-50%,-50%);
@@ -186,7 +186,7 @@ header{
 .education h1{
 	position: absolute;
 	top: 32%;
-	left: 45%;
+	left: 50%;
 	font-size: 32px;
 	font-family: Calisto MT;
 	transform: translate(-50%,-50%);
