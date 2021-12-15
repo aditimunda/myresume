@@ -72,7 +72,7 @@ a:hover {
 
 
 /* Responsive Design*/
-@media (min-device-width: 320px) and (max-device-width: 740px){
+@media screen and(min-device-width: 280px) and (max-device-width: 740px), (max-device-width: 1400px) {
  header{
   background-image: url(../P1hover.jpg);
 }
