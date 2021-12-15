@@ -72,7 +72,7 @@ a:hover {
 
 
 /* Responsive Design*/
-@media (max-width: 1200px){
+@media (min-device-width: 360px) and (max-device-width: 640px){
  header{
   background-image: url(../P1hover.jpg);
 }
@@ -84,8 +84,8 @@ a:hover {
 
 }
 .images img{
-	height: 600px;
-	width: 500px;
+	height: 550px;
+	width: 450px;
 	border-radius: 50%;
 	object-fit: cover;
 	margin-bottom: 1rem;
@@ -94,12 +94,12 @@ a:hover {
 .title{
 	position: absolute;
         top: 50%;
-        left: 50%;
+        left: 47%;
 	
 	
 }
 .title h1{
-	font-size: 87px;
+	font-size: 90px;
 	font-family: Calisto MT;
 	
 }
@@ -122,11 +122,66 @@ a:hover {
 a{
 	display: block;
 	padding: 14px 40px;
-	font-size: 70px;
+	font-size: 65px;
+	border-radius: 25px;
+	text-align:center;
+	font-family: Calisto MT;
+
+}
+@media (min-device-width: 320px) and (max-device-width: 658px){
+ header{
+  background-image: url(../P1hover.jpg);
+}
+.images{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.images img{
+	height: 600px;
+	width: 500px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+
+}
+.title{
+	position: absolute;
+        top: 50%;
+        left: 47%;
+	
+	
+}
+.title h1{
+	font-size: 90px;
+	font-family: Calisto MT;
+	
+}
+.button{
+	position: absolute;
+	top: 77%;
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+	font-weight: bold;
+
+
+}
+.button ul li{
+	list-style: none;
+	display: block;
+	margin: 10px 25px 6px;
+
+}
+a{
+	display: block;
+	padding: 14px 40px;
+	font-size: 65px;
 	border-radius: 25px;
 	text-align:center;
 	font-family: Calisto MT;
 
 }
 }
-
