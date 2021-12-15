@@ -12,12 +12,12 @@
 
 	$email_body = "User First Name: $first_name. \n".
 						"Last Name: $last_name. \n".
-							"User Email: $visitor_email.\n"'
-								"User Message: $message.\n";
+							"User Email: $visitor_email. \n".
+								"User Message: $message. \n";
 
 	$to ="aditi.munda@gmail.com";
 	
-	$headers .="From: $email_form \r\n";
+	$headers .="From: $email_from \r\n";
 
 	$headers .= "Reply-To: $visitor_email \r\n";
 
