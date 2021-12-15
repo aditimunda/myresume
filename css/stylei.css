@@ -156,19 +156,19 @@ header{
 .title{
 	position: absolute;
         top: 5%;
-        left: 30%;
+        left: 50%;
 	transform: translate(-50%,-50%);
 	
 }
 .title h1{
-	font-size: 40px;
+	font-size: 70px;
 	font-family: Calisto MT;
 	
 }
 .main{
 	position: absolute;
-	top: 10%;
-	left: 32%;
+	top: 20%;
+	left: 50%;
 	transform: translate(-50%,-50%);
 	
 	
@@ -177,66 +177,66 @@ header{
 	padding: 1rem 0;
 	margin: 0 0 20px 0;
 	
-	font-size: 22px;
+	font-size: 50px;
 	font-family: Calisto MT;
 	
 }
 
 .education h1{
 	position: absolute;
-	top: 13%;
+	top: 35%;
 
-	left: 30%;
-	font-size: 40px;
+	left: 50%;
+	font-size: 70px;
 	font-family: Calisto MT;
 	transform: translate(-50%,-50%);
 
 }
 .education .box-container{
 	position: absolute;
-	top: 16%;
-	left: 15%
+	top: 40%;
+	left: 22%
 	
 }
 .education .box-container .box h2{
-	font-size: 25px; 
+	font-size: 50px; 
 
 }
 .education .box-container .box h3{
-	font-size: 20px;
+	font-size: 40px;
 
 }
 .education .box-container .box p{
-	font-size: 20px;
+	font-size: 40px;
 
 	padding: 1rem 0;
 }
 .education .box-container1 {
 	position: absolute;
-	top: 30%;
+	top: 65%;
 	left: 5%
 	
 }
 
 .education .box-container1 .box h2{
-	font-size: 25px; 
+	font-size: 50px; 
 
 }
 .education .box-container1 .box h3{
-	font-size: 20px;
+	font-size: 40px;
 	
 
 }
 .education .box-container1 .box p{
-	font-size: 20px;
+	font-size: 40px;
 	padding: 1rem 0;
 }
 .education .box-container2{
 
 	padding: 15px 40px 6px;
 	position: absolute;
-	top: 40%;
-	left: 10%
+	top: 87%;
+	left: 22%
 }
 .education .box-container2 .resume{
 
@@ -247,7 +247,7 @@ header{
 .education .box-container2 .resume li a{
 	
 	padding: 15px 40px;
-	font-size: 20px; 
+	font-size: 50px; 
 }
 .education .box-container2 .resume li a:hover {
 	background-color: #fff;
