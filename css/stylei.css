@@ -6,7 +6,7 @@
 
 header{
 	width: 100%;
-	background-image: url(../P2.jpg);
+	background-image: url(../P1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: centre;
@@ -144,15 +144,118 @@ header{
 	background-color: #fff;
 	color: #000;
 }
+
+
+
+
 /* Responsive Design*/
-@media (max-width: 1200px){
+@media screen and(min-device-width: 240px) and (max-device-width: 740px), (max-device-width: 1400px) {
  header{
   background-image: url(../P1hover.jpg);
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: centre;
-	 
+}
+.title{
+	position: absolute;
+        top: 5%;
+        left: 30%;
+	transform: translate(-50%,-50%);
+	
+}
+.title h1{
+	font-size: 40px;
+	font-family: Calisto MT;
+	
+}
+.main{
+	position: absolute;
+	top: 10%;
+	left: 32%;
+	transform: translate(-50%,-50%);
+	
+	
+}
+.main p{
+	padding: 1rem 0;
+	margin: 0 0 20px 0;
+	
+	font-size: 22px;
+	font-family: Calisto MT;
+	
+}
+
+.education h1{
+	position: absolute;
+	top: 13%;
+
+	left: 30%;
+	font-size: 40px;
+	font-family: Calisto MT;
+	transform: translate(-50%,-50%);
+
+}
+.education .box-container{
+	position: absolute;
+	top: 16%;
+	left: 15%
+	
+}
+.education .box-container .box h2{
+	font-size: 25px; 
+
+}
+.education .box-container .box h3{
+	font-size: 20px;
+
+}
+.education .box-container .box p{
+	font-size: 20px;
+
+	padding: 1rem 0;
+}
+.education .box-container1 {
+	position: absolute;
+	top: 30%;
+	left: 5%
+	
+}
+
+.education .box-container1 .box h2{
+	font-size: 25px; 
+
+}
+.education .box-container1 .box h3{
+	font-size: 20px;
+	
+
+}
+.education .box-container1 .box p{
+	font-size: 20px;
+	padding: 1rem 0;
+}
+.education .box-container2{
+
+	padding: 15px 40px 6px;
+	position: absolute;
+	top: 40%;
+	left: 10%
+}
+.education .box-container2 .resume{
+
+	padding: 15px 40px 6px;
+	position: absolute;
+}
+
+.education .box-container2 .resume li a{
+	
+	padding: 15px 40px;
+	font-size: 20px; 
+}
+.education .box-container2 .resume li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 800px),(min-device-width: 600px) {
+ header{
+  background-image: url(../P3Hover.jpg);
 }
 .title{
 	position: absolute;
