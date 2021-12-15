@@ -72,7 +72,7 @@ a:hover {
 
 
 /* Responsive Design*/
-@media screen and(min-device-width: 280px) and (max-device-width: 740px), (max-device-width: 1400px) {
+@media screen and(min-device-width: 240px) and (max-device-width: 740px), (max-device-width: 1400px) {
  header{
   background-image: url(../P1hover.jpg);
 }
@@ -123,6 +123,62 @@ a{
 	display: block;
 	padding: 14px 40px;
 	font-size: 70px;
+	border-radius: 25px;
+	text-align:center;
+	font-family: Calisto MT;
+
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 800px),(min-device-width: 600px) {
+ header{
+  background-image: url(../P3Hover.jpg);
+}
+.images{
+	position: absolute;
+	top: 22%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.images img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+
+}
+.title{
+	position: absolute;
+        top: 42%;
+        left: 50%;
+	
+	
+}
+.title h1{
+	font-size: 50px;
+	font-family: Calisto MT;
+	
+}
+.button{
+	position: absolute;
+	top: 72%;
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+	font-weight: bold;
+
+
+}
+.button ul li{
+	list-style: none;
+	display: block;
+	margin: 10px 25px 6px;
+
+}
+a{
+	display: block;
+	padding: 14px 40px;
+	font-size: 22px;
 	border-radius: 25px;
 	text-align:center;
 	font-family: Calisto MT;
