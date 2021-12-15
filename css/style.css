@@ -72,63 +72,7 @@ a:hover {
 
 
 /* Responsive Design*/
-@media (min-device-width: 360px) and (max-device-width: 640px){
- header{
-  background-image: url(../P1hover.jpg);
-}
-.images{
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-
-}
-.images img{
-	height: 550px;
-	width: 450px;
-	border-radius: 50%;
-	object-fit: cover;
-	margin-bottom: 1rem;
-
-}
-.title{
-	position: absolute;
-        top: 50%;
-        left: 47%;
-	
-	
-}
-.title h1{
-	font-size: 90px;
-	font-family: Calisto MT;
-	
-}
-.button{
-	position: absolute;
-	top: 77%;
-	left: 50%;
-
-	transform: translate(-50%,-50%);
-	font-weight: bold;
-
-
-}
-.button ul li{
-	list-style: none;
-	display: block;
-	margin: 10px 25px 6px;
-
-}
-a{
-	display: block;
-	padding: 14px 40px;
-	font-size: 65px;
-	border-radius: 25px;
-	text-align:center;
-	font-family: Calisto MT;
-
-}
-@media (min-device-width: 320px) and (max-device-width: 658px){
+@media (min-device-width: 320px) and (max-device-width: 740px){
  header{
   background-image: url(../P1hover.jpg);
 }
@@ -178,7 +122,7 @@ a{
 a{
 	display: block;
 	padding: 14px 40px;
-	font-size: 65px;
+	font-size: 70px;
 	border-radius: 25px;
 	text-align:center;
 	font-family: Calisto MT;
