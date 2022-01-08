@@ -12,6 +12,27 @@ header{
 	background-position: centre;
 }
 
+.media {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.media ul li{
+	display: inline-block;
+	text-decoration: none;
+	
+	color: #fff;
+	font-size: 15px;
+	padding: 20px 10px;
+	
+	cursor: pointer;
+}
+
+.media ul li:hover {
+	
+	color: #000;
+}
 .title{
 	position: absolute;
 	top: 55%;
@@ -54,7 +75,7 @@ header{
 	margin: 0 5px;
 	
 }
-a{
+.button ul li a{
 	display: inline-block;
 	padding: 15px 40px;
 	border-radius: 25px;
@@ -64,7 +85,7 @@ a{
 	cursor: pointer;
 	font-size: 25px;
 }
-a:hover {
+.button ul li a:hover {
 	background-color: #fff;
 	color: #000;
 }
@@ -178,7 +199,7 @@ a{
 a{
 	display: block;
 	padding: 14px 40px;
-	font-size: 22px;
+	font-size: 20px;
 	border-radius: 25px;
 	text-align:center;
 	font-family: Calisto MT;
