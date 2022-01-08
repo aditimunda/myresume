@@ -11,6 +11,28 @@ header{
 	background-size: cover;
 	background-position: centre;
 }
+
+.media {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.media ul li{
+	display: inline-block;
+	text-decoration: none;
+	
+	color: #fff;
+	font-size: 15px;
+	padding: 20px 10px;
+	
+	cursor: pointer;
+}
+
+.media ul li:hover {
+	
+	color: #000;
+}
 .title{
 	position: absolute;
 	top: 10%;
