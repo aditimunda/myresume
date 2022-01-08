@@ -140,11 +140,11 @@ header{
 	margin: 10px 25px 6px;
 
 }
-a{
+.button ul li a{
 	display: block;
 	padding: 14px 40px;
 	font-size: 70px;
-	border-radius: 25px;
+	border -radius: 25px;
 	text-align:center;
 	font-family: Calisto MT;
 
