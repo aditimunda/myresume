@@ -196,7 +196,7 @@ a{
 	margin: 10px 25px 6px;
 
 }
-a{
+.button ul li a{
 	display: block;
 	padding: 14px 40px;
 	font-size: 20px;
