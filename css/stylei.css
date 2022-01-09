@@ -18,10 +18,11 @@ header{
 	margin-top: 10px;
 }
 
-.media ul li{
+.media ul li {
 	display: inline-block;
 	text-decoration: none;
-	
+}
+.media ul li a{	
 	color: #fff;
 	font-size: 15px;
 	padding: 20px 10px;
@@ -29,7 +30,7 @@ header{
 	cursor: pointer;
 }
 
-.media ul li:hover {
+.media ul li a:hover {
 	
 	color: #000;
 }
